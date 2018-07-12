@@ -18,7 +18,7 @@ var errArr = [];
  * @returns
  */
 function codeRep(tmpPath, str) {
-    str = str.replace(/\{\{([^}}]+)?\}\}/g, function ($0, $1) {
+    str = str.replace(/\{\{\s*([^}]+)\s*\}\}/g, function ($0, $1) {
         var res = $0;
         try {
             res = fs.readFileSync(`${tmpPath}/${$1}`);
