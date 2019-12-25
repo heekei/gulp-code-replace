@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heekei/gulp-code-replace.git"
+    "url": "https://github.com/heekei/gulp-code-replace.git"
   },
   "keywords": [
     "gulpplugin",
