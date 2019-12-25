@@ -22,7 +22,6 @@
     "url": "https://github.com/heekei/gulp-code-replace/issues"
   },
   "homepage": "https://github.com/heekei/gulp-code-replace#readme",
-  "publishConfig": { "registry": "https://github.com/heekei/gulp-code-replace.git" },
   "devDependencies": {
     "gulp": "^3.9.1",
     "mocha": "^5.2.0"
